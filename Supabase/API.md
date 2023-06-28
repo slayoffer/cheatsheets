@@ -1,0 +1,12 @@
+### Check
+
+```bash
+# client token
+curl 'https://api.supabase.devcraft.app/rest/v1/' \
+-H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICAgInJvbGUiOiAiYW5vbiIsCiAgICAiaXNzIjogInN1cGFiYXNlIiwKICAgICJpYXQiOiAxNjgyMTcyMDAwLAogICAgImV4cCI6IDE4NDAwMjQ4MDAKfQ.sdtFiST5EXJe65LswA3s39mWADep6tYEYiFgF-sgJo4"
+
+# admin token
+curl 'https://api.supabase.devcraft.app/rest/v1/' \
+-H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICAgInJvbGUiOiAic2VydmljZV9yb2xlIiwKICAgICJpc3MiOiAic3VwYWJhc2UiLAogICAgImlhdCI6IDE2ODIxNzIwMDAsCiAgICAiZXhwIjogMTg0MDAyNDgwMAp9.wgzTy31PYeL1artFfoVxljNWzQPH8zTe1qYXE346un0" \
+-H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICAgInJvbGUiOiAic2VydmljZV9yb2xlIiwKICAgICJpc3MiOiAic3VwYWJhc2UiLAogICAgImlhdCI6IDE2ODIxNzIwMDAsCiAgICAiZXhwIjogMTg0MDAyNDgwMAp9.wgzTy31PYeL1artFfoVxljNWzQPH8zTe1qYXE346un0"
+```
