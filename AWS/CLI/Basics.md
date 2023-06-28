@@ -19,8 +19,8 @@ aws iam create-user help
 aws configure
 # will ask for access key from AWS
 
-# AWS Access Key ID [None]: AKIASTKK2UQ6E553TM6F
-# AWS Secret Access Key [None]: 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
+# AWS Access Key ID [None]: key
+# AWS Secret Access Key [None]:key
 # Default region name [None]: us-east-1
 # Default output format [None]: json
 
